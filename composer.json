@@ -1,0 +1,34 @@
+{
+    "name": "laravelcity/laravel-filemanager",
+    "description": "This package is file manager",
+    "keywords": [
+        "laravelcity",
+        "laravel-filemanager",
+        "filemanager",
+        "file manager",
+        "editor",
+        "editor with file manager",
+        "file manager editor",
+        "tinymce file manager",
+        "cms",
+        "laravel"
+    ],
+    "homepage": "https://github.com/laravelcity/laravel-filemanager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "saeid hooshyar",
+            "email": "saeedhooshyar70@gmail.com",
+            "homepage": "https://saeidhooshyar.ir",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravelcity\\FileManager\\": "src/"
+        }
+    },
+    "require": {
+        "intervention/imagecache": "^2.3"
+    }
+}
